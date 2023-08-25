@@ -34,14 +34,8 @@ const Contact = () => {
                 <AnimatedText text="Let's Work Together" className='mb-6 text-6xl !text-primary dark:!text-green-600 lg:!text-6xl sm:mb-8 sm:!text-5xl xs:!text-4xl' />
 
                 <motion.div className='flex items-center justify-between rounded-3xl w-full md:flex-row lg:flex-row md:items-start lg:items-start md:justify-between lg:justify-between sm:flex-col sm:items-center sm:justify-between'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ amount: 0.5 }}
-                    transition={{ delay: 0.2, duration: 1 }}
-                    variants={{
-                        hidden: { opacity: 0.75, y: 8 },
-                        visible: { opacity: 1, x: 0 },
-                    }}>
+
+                >
                     <motion.div whileHover={{ scale: 1.02 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                         className='w-full md:w-1/2 mb-6 md:mb-0'>
