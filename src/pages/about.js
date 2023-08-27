@@ -1,5 +1,3 @@
-"use client"
-
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
@@ -28,13 +26,12 @@ const about = () => {
 
                             <h2 className='text-3xl font-bold uppercase pb-6 pl-10 text-dark/75 dark:text-light/75'>Introducing Me</h2>
                             <p className='mb-3 font-medium text-[16px] pl-10 lg:pl-0'>
-
-                                Greetings, I'm Hitika Dewani—an enthusiastic full-stack developer deeply passionate about the realm of Software Development and Design. Currently, my focus lies in harnessing the power of the MERN Stack, Rest APIs, and Redux-Toolkit.
+                                Greetings, I&apos;m Hitika Dewani—an enthusiastic full-stack developer deeply passionate about the realm of Software Development and Design. Currently, my focus lies in harnessing the power of the MERN Stack, Rest APIs, and Redux-Toolkit.
                             </p>
 
                             <p className='mb-3 font-medium text-[16px] pl-10 lg:pl-0'>
 
-                                My true joy lies in crafting sophisticated and user-centric interfaces that create an immersive experience for users. I'm dedicated to the creation of websites that seamlessly deliver captivating user journeys. I maintain a relentless pursuit of knowledge, constantly staying attuned to industry trends and emerging technologies.
+                                My true joy lies in crafting sophisticated and user-centric interfaces that create an immersive experience for users. I&apos;m dedicated to the creation of websites that seamlessly deliver captivating user journeys. I maintain a relentless pursuit of knowledge, constantly staying attuned to industry trends and emerging technologies.
                             </p>
 
                             <p className='mb-3 font-medium text-[16px] pl-10 lg:pl-0'>

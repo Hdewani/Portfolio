@@ -31,7 +31,7 @@ export default function Home() {
 
               <AnimatedText text="~Crafting Seamless Experiences from Frontend to Backend" className='!text-xl !text-left p-2 xl:!text-xl lg:!text-center lg:!text-xl md:!text-xl sm:!text-base' />
 
-              <p className='my-4 text-base font font-medium' >I am an enthusiastic web developer specializing in the MERN Stack and REST API technologies. My focus is on crafting captivating and user-friendly web experiences that engage and delight users. I love turning designs into functional and interactive websites, ensuring optimal performance across different devices and browsers. Let's collaborate to turn ideas into reality with elegant code and user-centric design.</p>
+              <p className='my-4 text-base font font-medium' > I am an enthusiastic web developer specializing in the MERN Stack and REST API technologies. My focus is on crafting captivating and user-friendly web experiences that engage and delight users. I love turning designs into functional and interactive websites, ensuring optimal performance across different devices and browsers. Lets collaborate to turn ideas into reality with elegant code and user-centric design.</p>
 
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/resume.pdf" target={"_blank"}
