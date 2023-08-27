@@ -41,7 +41,7 @@ const Contact = () => {
                         <div className='w-full md:w-1/2 lg:w-1/3  flex flex-col items-center relative sm:w-full'>
                             <div className='w-full md:w-1/2 md:m-auto h-auto mt-20 flex items-center justify-center rounded-br-2xl sm:w-full'>
                                 <div>
-                                    <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/hdewani2002@gmail.com" method="POST" style={{ position: 'relative' }} className='max-w-[800px] md:max-w-[600px] mx-asuto items-center justify-center sm:w-full py-8'>
+                                    <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/9ad15ccf305937095020f590d827a404" method="POST" style={{ position: 'relative' }} className='max-w-[800px] md:max-w-[600px] mx-asuto items-center justify-center sm:w-full py-8'>
                                         <motion.div className='mb-4 w-full md:px-6 md:w-[80%] lg:w-[70%] sm:w-full' whileHover={{ scale: 1.01 }} whileTap={{ scale: 1.2 }} transition={{ type: "spring", stiffness: 400, damping: 17 }}>
                                             <label htmlFor='name' className='block text-lg text-dark font-semibold mb-2'><AnimatedText text="Name" className='!text-lg !text-left md:!text-base sm:!text-sm' ></AnimatedText></label>
                                             <input id='name' className='shadow-lg p-3 w-full md:w-[80%] lg:w-[70%] sm:w-full rounded-3xl border-b-4 border-dark dark:shadow-amber-900 shadow-dark md:!text-base sm:!text-sm' type='text' placeholder='Name' {...register('name', { required: true, maxLength: 100, })} />
