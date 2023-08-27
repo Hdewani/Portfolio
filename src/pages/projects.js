@@ -118,7 +118,7 @@ const projects = () => {
                             <FeaturedProject
                                 title=" Personal Portfolio"
                                 summary="My portfolio website is a testament to professionalism, built with NextJS, Framer Motion, and Tailwind. It boasts seamless page transitions, captivating background effects, and a distinctively unique design. Moreover, it's crafted to be fully responsive across mobile devices. Through this project, I strive not only to demonstrate my proficiency in creativity and technical skills, but also to offer a glimpse into my distinct developer's perspective."
-                                link='/'
+                                link='https://hitika.vercel.app/'
                                 github='https://github.com/Hdewani/Portfolio'
                                 img={PortCover}
                                 type="Featured Project"
