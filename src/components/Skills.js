@@ -35,14 +35,14 @@ const Skills = () => {
                 >
                     Web
                 </motion.div>
-                <Skill name="GraphQL" x="-28vw" y="1vw" />
+                <Skill name="Vue 3" x="-28vw" y="1vw" />
                 <Skill name="CSS" x="-17vw" y="-4vw" />
                 <Skill name="JavaScript" x="8vw" y="18vw" />
                 <Skill name="ReactJS" x="-12vw" y="8vw" />
                 <Skill name="NextJS" x="-16vw" y="-17vw" />
                 <Skill name="Bootstrap" x="9vw" y="9vw" />
                 <Skill name="Git & GitHub" x="23vw" y="13vw" />
-                <Skill name="PHP" x="0vw" y="-19vw" />
+                <Skill name="Pinia" x="0vw" y="-19vw" />
                 <Skill name="C++" x="-23vw" y="10vw" />
                 <Skill name="Redux Toolkit" x="27vw" y="5vw" />
                 <Skill name="Express JS" x="-25vw" y="-9vw" />

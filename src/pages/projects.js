@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import GossipCover from "public/images/projects/Gossip-Project-Cover.png"
+import SaviCover from "public/images/projects/savi.png"
 import NewsCover from "public/images/projects/News Project Cover.png"
 import PortCover from "public/images/projects/Portfolio Project Cover.png"
 import RentCover from "public/images/projects/Rent Project Cover.png"
@@ -102,6 +103,16 @@ const projects = () => {
 
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
 
+                        <div className='col-span-12 ' >
+                            <FeaturedProject
+                                title="Savi -AI Finance Manager"
+                                summary="Built an AI-powered finance platform using Next.js 13, Supabase, and Clerk, featuring smart receipt scanning, secure authentication, modular dashboards with ShadCN and Tailwind, and automated background jobs via Inngest for budget tracking and alerts."
+                                link='https://finance-manager-hdewanis-projects.vercel.app/'
+                                github='https://github.com/Hdewani/finance-manager'
+                                img={SaviCover}
+                                type="Featured Project"
+                            />
+                        </div>
                         <div className='col-span-12 ' >
                             <FeaturedProject
                                 title="Gossip -Social Media website"

@@ -94,12 +94,12 @@ const NavBar = () => {
                     <motion.a href="/" target={"_blank"} whileHover={{ y: -2 }} className='w-7 ml-3' whileTap={{ scale: 2 }}>
                         <Portfolio /></motion.a>
 
-                    <motion.a href="https://instagram.com/_hdewani_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+                    {/* <motion.a href="https://instagram.com/_hdewani_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
                         target={"_blank"}
                         whileHover={{ y: -2 }}
                         className='w-8 mx-3'
                         whileTap={{ scale: 2 }}
-                    ><InstagramIcon /> </motion.a>
+                    ><InstagramIcon /> </motion.a> */}
 
                     <motion.a href="https://twitter.com/dewani_hitika" target={"_blank"}
                         whileHover={{ y: -2 }}
@@ -153,12 +153,12 @@ const NavBar = () => {
                             <motion.a href="/" target={"_blank"} whileHover={{ y: -2 }} className='w-7 ml-3 sm:mx-1' whileTap={{ scale: 2 }}>
                                 <Portfolio /></motion.a>
 
-                            <motion.a href="https://instagram.com/_hdewani_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+                            {/* <motion.a href="https://instagram.com/_hdewani_?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
                                 target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 className='w-8 mx-3 bg-dark rounded-full sm:mx-1   '
                                 whileTap={{ scale: 2 }}
-                            ><InstagramIcon /> </motion.a>
+                            ><InstagramIcon /> </motion.a> */}
 
                             <motion.a href="https://twitter.com/dewani_hitika" target={"_blank"}
                                 whileHover={{ y: -2 }}
